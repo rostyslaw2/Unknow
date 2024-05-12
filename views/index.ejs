@@ -1,16 +1,130 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-  </head>
-  <body>
-    <h1>Document</h1>
-  </body>
-  <main>
-    <% if (error) { %>
-    <h1 class="error"><%= error %></h1>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <title>Document</title>
+</head>
+<header>
+  <div class="blockLineONE">
+    <div class="line"></div>
+  </div>
+
+  <nav>
+    <a href="#" class="TxTfooter">Головна</a>
+    <a href="#" class="TxTfooter">Навички</a>
+    <a href="#" class="TxTfooter">Про нас</a>
+    <a href="#" class="TxTfooter">Курси</a>
+    <a href="#" class="TxTfooter">Ціна</a>
+    <a href="#" class="TxTfooter">Найняти випускника</a>
+
+  </nav>
+
+  <div class="blockLineTWO">
+    <div class="line"></div>
+  </div>
+</header>
+
+<body>
+  <h1>Document</h1>
+  <div class="blockLine">
+    <div class="lineHeader"></div>
+  </div>
+
+
+  <div class="bodyTitle">
+    <div class="blockLineONE">
+      <div class="line"></div>
+    </div>
+    <div class="titleTxT">
+      <h1 class="TiTle">/ Мене звати <span class="TXTred">аня</span>
+      </h1>
+      <p class="subTitle">Я пройшла курс від Sova School і мій напрямок -
+        <span class="subTXTred">дизайн</span>
+      </p>
+    </div>
+
+    <div class="blockLineBody">
+      <div class="lineBody"></div>
+    </div>
+
+    <div class="bodyPhoto">
+      <img src="https://i.ibb.co/Dfk3gq5/Glass-Shapes-4.png">
+    </div>
+
+    <div class="blockLineTWO">
+      <div class="line"></div>
+    </div>
+  </div>
+
+  <div class="blockLinebuttom">
+    <div class="linebuttomBody"></div>
+  </div>
+
+  <div class="BlockElement">
+    <div class="Title">
+      <h1>Навички, які я отримала під час навчання</h1>
+      <div class="line_Horizont"></div>
+    </div>
+    <div class="blockInput">
+      <div class="BlockOne">
+        <h3><img src="https://i.ibb.co/SrxkdSx/Ellipse-3.png" alt="">Робота в команді</h3>
+        <h3><img src="https://i.ibb.co/SrxkdSx/Ellipse-3.png" alt="">Аналіз конкурентів</h3>
+        <div class="dizaine">
+          <img src="https://i.ibb.co/SrxkdSx/Ellipse-3.png" alt="">
+          <h3>Дизайн для мобільних пристроїв</h3>
+        </div>
+        <div class="creation">
+          <img src="https://i.ibb.co/SrxkdSx/Ellipse-3.png" alt="">
+          <h3>створення інфораційної архітектури</h3>
+        </div>
+      </div>
+      <div class="BlockOne">
+        <h3><img src="https://i.ibb.co/SrxkdSx/Ellipse-3.png" alt="">Анімації</h3>
+        <h3><img src="https://i.ibb.co/SrxkdSx/Ellipse-3.png" alt="">Підбір кольорів</h3>
+        <h3><img src="https://i.ibb.co/SrxkdSx/Ellipse-3.png" alt="">Поєднання шрифтів</h3>
+        <div class="prototipe">
+          <img src="https://i.ibb.co/SrxkdSx/Ellipse-3.png" alt="">
+          <h3>Створення прототипів</h3>
+        </div>
+      </div>
+      <div class="BlockOne">
+        <h3><img src="https://i.ibb.co/SrxkdSx/Ellipse-3.png" alt="">Використання сіток</h3>
+        <h3><img src="https://i.ibb.co/SrxkdSx/Ellipse-3.png" alt="">Дизайн постерів</h3>
+        <h3><img src="https://i.ibb.co/SrxkdSx/Ellipse-3.png" alt="">Підбір іконок</h3>
+
+      </div>
+    </div>
+  </div>
+</body>
+<footer>
+  <div class="blockFooter_line_Horizont">
+    <div class="Footer_line_Horizont"></div>
+  </div>
+
+  <div class="footerElements">
+    <div class="footerTxt">
+      <h3>випускники <span>sova school</span></h3>
+    </div>
+    <div class="footerInformation">
+      <h3>
+        Наші контакти:
+        <hr>
+        +380 00 000 0000
+        <hr>
+        Example@gmail.com
+      </h3>
+    </div>
+  </div>
+</footer>
+<main>
+  <% if (error) { %>
+    <h1 class="error">
+      <%= error %>
+    </h1>
     <% } %>
-  </main>
+</main>
+
 </html>

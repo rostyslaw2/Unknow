@@ -1,0 +1,381 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+*,
+*:before,
+*:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+:focus,
+:active {
+    outline: none;
+}
+
+a:focus,
+a:active {
+    outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+    display: block;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+    font-family: inherit;
+}
+
+input::-ms-clear {
+    display: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+body {
+    background-color: #121212;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav {
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 5%;
+}
+
+.TxTfooter {
+    color: #FFF;
+    font-family: Nunito;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    transition: all 0.5s ease;
+}
+
+.TxTfooter:hover {
+    text-decoration: underline;
+}
+
+.blockLine {
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+}
+
+.lineHeader {
+    width: 85%;
+    height: 1px;
+    flex-shrink: 0;
+    stroke-width: 1px;
+    background-color: #FFF;
+}
+
+.TiTle {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.subTitle {
+    color: #FFF;
+    font-family: Nunito;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.TXTred {
+    color: #8D1709;
+    font-family: Montserrat;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.subTXTred {
+    color: #8D1709;
+    font-family: Nunito;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.bodyTitle {
+    display: flex;
+}
+
+.blockLineBody {
+    display: flex;
+    justify-content: center;
+}
+
+.lineBody {
+    width: 1px;
+    height: 100%;
+    flex-shrink: 0;
+    stroke-width: 1px;
+    background-color: #FFF;
+
+}
+
+.titleTxT {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 9% 8% 0% 4%;
+    gap: 7%;
+}
+
+.bodyPhoto {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0% 5% 0% 12%;
+}
+
+.blockLinebuttom {
+    display: flex;
+    justify-content: center;
+}
+
+.linebuttomBody {
+    width: 85%;
+    height: 1px;
+    flex-shrink: 0;
+    stroke-width: 1px;
+    background-color: #FFF;
+}
+
+.blockLineONE {
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 100px;
+}
+
+.blockLineTWO {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 100px;
+}
+
+.line {
+    width: 1px;
+    height: 275%;
+    flex-shrink: 0;
+    stroke-width: 1px;
+    background-color: #FFF;
+}
+
+.blockLineHEaderONE {
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+.blockLineHAderTWO {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.Title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 33px;
+}
+
+.Title h1 {
+    width: 502px;
+    color: #FFF;
+    text-align: center;
+    font-family: Nunito;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.line_Horizont {
+    width: 85%;
+    height: 1px;
+    margin-top: 30px;
+    stroke-width: 1px;
+    background-color: #FFF;
+}
+
+.BlockOne h3 {
+    color: #FFF;
+    font-family: Nunito;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-bottom: 90px;
+}
+
+.blockInput {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+    padding: 0% 13%;
+}
+
+.dizaine {
+    width: 310px;
+    display: flex;
+}
+
+.creation {
+    width: 244px;
+    display: flex;
+}
+
+.prototipe {
+    width: 244px;
+    display: flex;
+}
+
+.BlockOne img {
+    width: 26px;
+    height: 26px;
+    flex-shrink: 0;
+    margin-right: 26px;
+}
+
+.footerElements {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 55px;
+    padding: 0% 9%;
+}
+
+.footerTxt h3 {
+    color: #FFF;
+    font-family: Nunito;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.footerTxt span {
+    color: #8D1709;
+    font-family: Nunito;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.footerInformation {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    text-align: end;
+    gap: 7px;
+}
+
+.footerInformation h3 {
+    color: #FFF;
+    font-family: Nunito;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.blockFooter_line_Horizont {
+    display: flex;
+    justify-content: center;
+
+}
+
+.Footer_line_Horizont {
+    width: 85%;
+    height: 1px;
+    margin-top: 90px;
+    stroke-width: 1px;
+    background-color: #FFF;
+
+}
