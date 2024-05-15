@@ -29,5 +29,5 @@ const start = async () => {
   }
 };
 
-//прпмавенваекне
+
 start();
