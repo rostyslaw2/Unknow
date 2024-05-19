@@ -175,8 +175,17 @@ nav {
     text-transform: uppercase;
 }
 
+.block {
+    display: flex;
+    width: 100%;
+
+    /* margin-left: 13%;
+    margin-right: 13%; */
+}
+
 .bodyTitle {
     display: flex;
+    justify-content: space-between;
 }
 
 .blockLineBody {
@@ -205,6 +214,8 @@ nav {
     display: flex;
     justify-content: flex-end;
     padding: 0% 5% 0% 12%;
+    width: 100%;
+    height: 100%;
 }
 
 .blockLinebuttom {
@@ -254,7 +265,6 @@ nav {
 .Title {
     display: flex;
     justify-content: center;
-    align-items: center;
     margin-top: 33px;
 }
 
@@ -300,6 +310,7 @@ nav {
     justify-content: space-between;
     margin-top: 80px;
     padding: 0% 13%;
+    height: 75%;
 }
 
 
@@ -307,7 +318,7 @@ nav {
     display: flex;
     flex-direction: column;
     gap: 15%;
-    height: 85%;
+    height: 75%;
 }
 
 .blockROw {
@@ -354,7 +365,8 @@ nav {
 }
 
 .BlockElement {
-    height: 85%;
+    height: 75%;
+    margin-bottom: 100px;
 }
 
 .blockSend {
@@ -462,4 +474,384 @@ nav {
     stroke-width: 1px;
     background-color: #FFF;
 
+}
+
+@media screen and (max-width: 2560px) {
+    .titleTxT {
+        padding: 9% 15% 0% 5%;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    .titleTxT {
+        padding: 9% 8% 0% 11%;
+    }
+}
+
+@media screen and (max-width: 2560px) {
+    .bodyPhoto {
+        padding: 0% 0% 0% 19%;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    .bodyPhoto {
+        padding: 0% 0% 0% 0%;
+    }
+}
+
+@media screen and (max-width: 2560px) {
+    .HederButt {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .titleTxT {
+        padding: 9% 7% 0% 5%;
+    }
+
+    .blockLineONE {
+        padding-left: 18px;
+    }
+
+    .blockLineTWO {
+        padding-right: 18px;
+    }
+
+    .lineHeader {
+        width: 90%;
+    }
+
+    .linebuttomBody {
+        width: 90%;
+    }
+
+    .line_Horizont {
+        width: 90%;
+    }
+
+    .Footer_line_Horizont {
+        width: 90%;
+    }
+
+    .blockInput {
+        padding: 0% 5%
+    }
+
+    .footerElements {
+        padding: 0% 5%
+    }
+
+    .blockROwone {
+        width: 97%;
+    }
+
+    .BlockOne {
+        width: 322px;
+    }
+
+    .input {
+        font-size: 19px;
+    }
+
+    .blockCloseTwo {
+        margin-top: 0px;
+    }
+
+    .line {
+        width: 1px;
+        height: 235%;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .HederButt {
+        display: flex;
+
+    }
+
+    nav {
+        display: flex;
+        justify-content: flex-start;
+        margin-left: 40px;
+    }
+
+    .TxTfooter {
+        display: none;
+    }
+
+    .blockLineBody {
+        display: none;
+    }
+
+    .block {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Title {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .blockSend {
+        height: 70%;
+        gap: 10px;
+    }
+
+    .blockInput {
+        flex-direction: column;
+        justify-content: center;
+        gap: 120px;
+        margin-top: 30px;
+        padding: 0% 19%;
+    }
+
+    .subblockInput {
+        gap: 126%;
+    }
+
+    .blockROwone {
+        width: 96%;
+    }
+
+    .blockROwTwo {
+        width: 102%;
+    }
+
+    .blockCloseOne {
+        margin-top: 0px;
+    }
+
+    .blockCloseTwo {
+        margin-top: 0px;
+    }
+
+    .subblockInput {
+        height: 22%;
+    }
+
+    .BlockElement {
+        height: 130%;
+    }
+
+    .line {
+        height: 245%;
+    }
+
+    .lineHeader {
+        width: 90%;
+    }
+
+    .linebuttomBody {
+        width: 90%;
+    }
+
+    .line_Horizont {
+        width: 90%;
+    }
+
+    .Footer_line_Horizont {
+        width: 90%;
+    }
+
+    .footerElements {
+        flex-direction: column;
+        padding: 0% 18%;
+        margin-top: 25px;
+        gap: 10px;
+    }
+
+    .footerInformation {
+        justify-content: flex-start;
+        text-align: start;
+        flex-direction: row;
+    }
+
+    .BlockOne {
+        width: 460px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .blockLineONE {
+        padding-left: 10px;
+
+    }
+
+    .blockLineTWO {
+        padding-right: 0px;
+
+    }
+
+    .BlockOne {
+        width: 331px;
+    }
+
+    .Title h1 {
+        font-size: 21px;
+        width: 387px;
+    }
+
+    .TiTle {
+        font-size: 36px;
+    }
+
+    .TXTred {
+        font-size: 36px;
+    }
+
+    .bodyPhoto {
+        height: 45%;
+    }
+
+    .line {
+        height: 245%;
+    }
+
+    .lineHeader {
+        width: 85%;
+    }
+
+    .linebuttomBody {
+        width: 85%;
+    }
+
+    .line_Horizont {
+        width: 85%;
+    }
+
+    .Footer_line_Horizont {
+        width: 85%;
+    }
+
+    .blockInput {
+        padding: 0% 9%;
+    }
+
+    .subblockInput {
+        gap: 100%;
+    }
+
+    .blockLineTWO {
+        padding-right: 10px;
+    }
+
+    .blockLineONE {
+        padding-left: 10px;
+    }
+
+    .block {
+        width: 91%;
+        margin-bottom: -235px;
+    }
+
+    .blockInput {
+        padding: 0% 6%;
+    }
+
+    .BlockElement {
+        margin-bottom: 0px;
+        height: 112%;
+    }
+
+    .line {
+        height: 310%;
+    }
+
+    .footerElements {
+        padding: 0% 7%;
+    }
+
+
+}
+
+@media screen and (max-width: 425px) {
+    .BlockElement {
+        height: 154%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    nav {
+        margin-left: 20px;
+    }
+
+    .BlockOne {
+        width: 276px;
+    }
+
+    .HederButt {
+        width: 11%;
+    }
+
+    .TiTle {
+        font-size: 24px;
+    }
+
+    .TXTred {
+        font-size: 24px;
+    }
+
+    .subTitle {
+        font-size: 14px;
+    }
+
+    .subTXTred {
+        font-size: 14px;
+    }
+
+    .Title {
+        gap: 10px;
+    }
+
+    .Title h1 {
+        font-size: 19px;
+        width: 300px;
+    }
+
+    .blockInput {
+        gap: 3px;
+        margin-top: -31px;
+    }
+
+    .subblockInput {
+        gap: 0%;
+    }
+
+    .BlockElement {
+        height: 90%;
+    }
+
+    .input {
+        font-size: 15px;
+    }
+
+    .line {
+        height: 260%;
+    }
+
+    .footerTxt h3 {
+        font-size: 16px;
+    }
+
+    .footerTxt span {
+        font-size: 16px;
+    }
+
+    .footerInformation h3 {
+        font-size: 16px;
+    }
+
+    .block__send_but {
+        align-items: center;
+    }
+
+    .TxT__but {
+        font-size: 16px;
+    }
 }
