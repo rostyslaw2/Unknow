@@ -606,7 +606,7 @@ nav {
     .blockInput {
         flex-direction: column;
         justify-content: center;
-        gap: 120px;
+        gap: 6px;
         margin-top: 30px;
         padding: 0% 19%;
     }
@@ -640,7 +640,7 @@ nav {
     }
 
     .line {
-        height: 245%;
+        height: 215%;
     }
 
     .lineHeader {
