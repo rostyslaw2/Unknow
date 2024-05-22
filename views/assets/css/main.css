@@ -486,21 +486,17 @@ nav {
     .titleTxT {
         padding: 9% 15% 0% 5%;
     }
-}
 
-@media screen and (max-width: 1440px) {
-    .titleTxT {
-        padding: 9% 8% 0% 11%;
-    }
-}
-
-@media screen and (max-width: 2560px) {
     .bodyPhoto {
         padding: 0% 0% 0% 19%;
     }
 }
 
 @media screen and (max-width: 1440px) {
+    .titleTxT {
+        padding: 9% 8% 0% 11%;
+    }
+
     .bodyPhoto {
         padding: 0% 0% 0% 0%;
     }
@@ -509,6 +505,16 @@ nav {
 @media screen and (max-width: 2560px) {
     .HederButt {
         display: none;
+    }
+}
+
+@media screen and (max-width: 1880px) {
+    .titleTxT {
+        padding: 9% 23% 0% 5%;
+    }
+
+    .bodyPhoto {
+        padding: 0% 0% 0% 0%;
     }
 }
 
