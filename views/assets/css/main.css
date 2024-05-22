@@ -127,6 +127,12 @@ nav {
     margin-top: 2%;
 }
 
+.HederButt {
+    width: 8%;
+    height: 88%;
+    flex-shrink: 0;
+}
+
 .lineHeader {
     width: 85%;
     height: 1px;
