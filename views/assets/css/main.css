@@ -251,7 +251,7 @@ nav {
 
 .line {
     width: 1px;
-    height: 275%;
+    height: 225%;
     flex-shrink: 0;
     stroke-width: 1px;
     background-color: #FFF;
