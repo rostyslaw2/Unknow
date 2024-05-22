@@ -614,7 +614,7 @@ nav {
         justify-content: center;
         gap: 6px;
         margin-top: 30px;
-        padding: 0% 19%;
+        padding: 0% 10%;
     }
 
     .subblockInput {
@@ -667,7 +667,7 @@ nav {
 
     .footerElements {
         flex-direction: column;
-        padding: 0% 18%;
+        padding: 0% 9%;
         margin-top: 25px;
         gap: 10px;
     }
